@@ -1,0 +1,140 @@
+html {
+    background-color: white;
+}
+
+body {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.125rem;
+    color: #414141;
+}
+
+/* ***************************** Header ****************************** */
+header {
+    background-color: #00748D;
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 2px solid white; 
+    border-image: url("images/path.png") 4 / 0 0 0.5rem 0 repeat;
+}
+
+header p,
+header a, .footer-icons p {
+    color: white;
+ 
+}
+header p {
+    margin-top:-0.1rem;
+}
+header nav {
+    margin-top: 1.5rem;
+   
+}
+
+header a {
+    text-decoration: none;
+ 
+}
+header ul {
+    list-style: none;
+     
+}
+header ul li:last-of-type {
+   border: 1px solid white;
+   background-color: white;
+  
+    
+}
+header ul li:last-of-type a {
+   color: #00748D; 
+    
+}
+header ul li {
+    padding: 0.5rem 0.5rem 0.5rem 0.05rem;
+    margin-right: 2.3rem;
+} 
+
+nav, h1, h2, h3, header p, .footer-icons {
+    font-family: 'Fjalla One', sans-serif;
+   
+}
+nav {
+    font-size: 1.25rem; 
+}
+
+
+/* ****************** Main ********************************** */
+
+h1 {
+   color: #CB8606; 
+   text-transform: uppercase;
+   font-size: 2rem;
+   font-weight: 400;
+}
+h2 {
+    color: #00748D;
+    font-weight: 400;
+}
+.btn-article {
+    background-color: #00748D;
+    border: none;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    font-weight: 600;
+}
+.first-section img {
+    width: 100%;
+    height:auto;
+}
+.first-section {
+    padding: 1rem;
+
+}
+h1, .first-section h2, .first-section img, .first-section p {
+    text-align: center;
+}
+.first-section article {
+    margin: 4rem 0 7rem 0;
+}
+.first-section article:last-of-type {
+    margin-bottom: 8rem;
+}
+
+
+/* *********************************Footer ************************************ */
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #00748D;
+    padding: 0.5rem;
+    border-bottom: 2px solid white; 
+    border-image: url("images/path.png") 4 / 0 0 0.5rem 0 repeat;
+}
+
+.footer-icons img {
+    width: 20rem;
+    align-self: center;
+    margin-bottom: -0.2rem;
+}
+.footer-icons i {
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.icons {
+    padding: 1rem;
+}
+.foot {
+    
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+}
+.foot p a {
+    color: #DD5735;
+}
